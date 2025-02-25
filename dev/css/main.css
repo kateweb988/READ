@@ -315,8 +315,8 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: 'Lilita One Rus';
-  src: url("../fonts/LilitaOneRus.eot");
-  src: url("../fonts/LilitaOneRus.eot?#iefix") format("embedded-opentype"), url("../fonts/LilitaOneRus.woff2") format("woff2"), url("../fonts/LilitaOneRus.woff") format("woff"), url("../fonts/LilitaOneRus.ttf") format("truetype"), url("../fonts/LilitaOneRus.svg#LilitaOneRus") format("svg");
+  src: url("/fonts/LilitaOneRus.eot");
+  src: url("/fonts/LilitaOneRus.eot?#iefix") format("embedded-opentype"), url("/fonts/LilitaOneRus.woff2") format("woff2"), url("/fonts/LilitaOneRus.woff") format("woff"), url("/fonts/LilitaOneRus.ttf") format("truetype"), url("/fonts/LilitaOneRus.svg#LilitaOneRus") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -380,7 +380,7 @@ input:-moz-placeholder {
   margin-right: 11px; }
 
 .custom-checkbox:checked + label::before {
-  background: url(../img/check2.png) no-repeat center center;
+  background: url(/img/check2.png) no-repeat center center;
   background-size: 8px; }
 
 .swiper-pagination {
@@ -468,7 +468,7 @@ input:-moz-placeholder {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(../img/down-arrow.png) no-repeat !important;
+  background: url(/img/down-arrow.png) no-repeat !important;
   position: absolute;
   right: -16px;
   top: 8px; }
@@ -792,7 +792,8 @@ ul.info li {
     overflow: hidden;
     border-radius: 32px;
     position: relative;
-    cursor: pointer; }
+    cursor: pointer;
+    display: flex; }
     .main__video:after {
       content: "";
       display: block;
@@ -1268,7 +1269,7 @@ input.error, textarea.error {
           line-height: 28px;
           text-align: center;
           display: block;
-          margin: 0 auto 16px; }
+          margin: 0 auto 14px; }
         .par .swiper3 .swiper-slide a p {
           color: #7c8092;
           font-size: 16px;
@@ -1309,7 +1310,8 @@ input.error, textarea.error {
     margin: 0 auto 30px; }
     .par__logo img {
       max-width: 100%;
-      object-fit: contain; }
+      object-fit: contain;
+      max-height: 139px; }
   .par .header__fig_1 {
     right: -44px;
     top: 207px; }
@@ -1349,7 +1351,7 @@ input.error, textarea.error {
   .about .header__fig_2 {
     left: initial;
     right: 0;
-    top: 651px; }
+    top: 470px; }
   .about .header__fig_3 {
     left: 34px;
     top: 74px; }
@@ -1664,9 +1666,9 @@ input.error, textarea.error {
     top: 25px;
     z-index: 11;
     overflow: hidden;
-    background: url(../img/bur1.svg) no-repeat center center; }
+    background: url(/img/bur1.svg) no-repeat center center; }
     .menu-btn.active {
-      background: url(../img/bur2.svg) no-repeat center center;
+      background: url(/img/bur2.svg) no-repeat center center;
       position: fixed; }
   .menu {
     position: fixed;

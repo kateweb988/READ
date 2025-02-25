@@ -455,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('mousemove', function (e) {
     let x = e.clientX / window.innerWidth;
     let y = e.clientY / window.innerHeight;
-    te10.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
+    te10.style.transform = 'translate(' + x * 50 + 'px, -' + y * 50 + 'px)';
   });
   let te11 = document.querySelector('.par .header__fig_1');
   window.addEventListener('mousemove', function (e) {
