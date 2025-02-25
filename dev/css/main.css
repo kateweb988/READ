@@ -769,6 +769,8 @@ ul.info li {
     width: 100%; }
     .main .swiper1 .swiper-slide {
       width: 100%; }
+      .main .swiper1 .swiper-slide iframe {
+        width: 100%; }
       .main .swiper1 .swiper-slide p {
         text-align: center;
         margin: 28px auto 39px;
@@ -787,7 +789,7 @@ ul.info li {
     z-index: -1;
     object-fit: cover; }
   .main__video {
-    height: 657px;
+    height: 746px;
     width: 100%;
     overflow: hidden;
     border-radius: 32px;
@@ -2030,7 +2032,7 @@ input.error, textarea.error {
   .header {
     padding-bottom: 10px; }
   .main__video {
-    height: 422px; }
+    height: 222px; }
   .main .swiper1 .swiper-slide p {
     font-size: 14px; }
   .main, .test, .van, .what, .area, .rev, .per, .par {
