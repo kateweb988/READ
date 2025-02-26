@@ -271,6 +271,7 @@ document.addEventListener('DOMContentLoaded', function () {
     slidesPerView: 4,
     spaceBetween: 20,
     loop: true,
+    slideToClickedSlide: true,
     centeredSlides: true,
     navigation: {
       nextEl: '.swiper-button-next2',

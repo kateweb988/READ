@@ -766,18 +766,22 @@ ul.info li {
   position: relative; }
   .main .swiper1 {
     overflow: hidden;
-    width: 100%; }
+    width: 82%;
+    margin: 0 auto; }
     .main .swiper1 .swiper-slide {
       width: 100%; }
       .main .swiper1 .swiper-slide iframe {
         width: 100%; }
-      .main .swiper1 .swiper-slide p {
+      .main .swiper1 .swiper-slide a {
         text-align: center;
         margin: 28px auto 39px;
         color: #7c8092;
         font-size: 18px;
         font-weight: 400;
+        display: block;
         line-height: 22px; }
+        .main .swiper1 .swiper-slide a:hover {
+          color: #446fc9; }
       .main .swiper1 .swiper-slide:hover .main__play {
         opacity: 0.8; }
   .main__pic {
@@ -1613,7 +1617,9 @@ input.error, textarea.error {
   .par .swiper3 .swiper-slide a {
     padding-top: 40px; }
   .van__item ul {
-    margin: 38px 45px 0 45px; } }
+    margin: 38px 45px 0 45px; }
+  .main .swiper1 {
+    width: 94%; } }
 
 @media screen and (max-width: 1400px) {
   .nav__list li a {
@@ -1658,6 +1664,8 @@ input.error, textarea.error {
     padding: 0 15px; } }
 
 @media screen and (max-width: 1199px) {
+  .main .swiper1 {
+    width: 100%; }
   .menu-btn, .menu {
     display: block; }
   .menu-btn {
@@ -2033,7 +2041,7 @@ input.error, textarea.error {
     padding-bottom: 10px; }
   .main__video {
     height: 222px; }
-  .main .swiper1 .swiper-slide p {
+  .main .swiper1 .swiper-slide a {
     font-size: 14px; }
   .main, .test, .van, .what, .area, .rev, .per, .par {
     padding: 25px 0; }
