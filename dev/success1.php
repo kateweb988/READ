@@ -9,7 +9,7 @@ $text = htmlspecialchars($_POST["text"]);
 $refferer = getenv('HTTP_REFERER');
 $date=date("d.m.y"); // число.месяц.год  
 $time=date("H:i"); // часы:минуты:секунды 
-$myemail = "info@youcanread.ru";
+$myemail = "koweb93@gmail.com";
 
 $tema = "Новая заявка";
 $message_to_myemail = "
