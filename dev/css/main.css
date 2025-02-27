@@ -1589,7 +1589,7 @@ input.error, textarea.error {
     margin-right: 25px; }
   .header__wrap img {
     right: -79px;
-    width: 63%; }
+    width: 58%; }
   .header__fig_1 {
     right: -35px; }
   .header__fig_2 {
@@ -2226,13 +2226,16 @@ input.error, textarea.error {
   .popup-call__box {
     margin-top: -55%; }
   #popup-thank .popup-call__box {
-    padding: 50px 20px; }
+    padding: 80px 20px 40px;
+    text-align: center; }
   .test__links {
     flex-direction: column; }
     .test__links a {
       width: 100%;
       margin-bottom: 15px;
-      font-size: 16px; } }
+      font-size: 16px; }
+  #popup-thank .popup__wrap .popup__title {
+    text-align: center; } }
 
 @media screen and (max-width: 450px) and (min-width: 400px) {
   .header__wrap img {

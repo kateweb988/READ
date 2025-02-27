@@ -488,12 +488,12 @@ document.addEventListener('DOMContentLoaded', function () {
     let y = e.clientY / window.innerHeight;
     te15.style.transform = 'translate(' + x * 50 + 'px, -' + y * 50 + 'px)';
   });
-  let te16 = document.querySelector('.test2 .header__fig_1');
-  window.addEventListener('mousemove', function (e) {
-    let x = e.clientX / window.innerWidth;
-    let y = e.clientY / window.innerHeight;
-    te16.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
-  });
+  // let te16 = document.querySelector('.test2 .header__fig_1');
+  // window.addEventListener('mousemove', function (e) {
+  //   let x = e.clientX / window.innerWidth;
+  //   let y = e.clientY / window.innerHeight;
+  //   te16.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
+  // });
   let tee16 = document.querySelector('.area .header__fig_3');
   window.addEventListener('mousemove', function (e) {
     let x = e.clientX / window.innerWidth;
